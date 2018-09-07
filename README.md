@@ -5,19 +5,19 @@
 [![License](https://img.shields.io/cocoapods/l/KRBubbleMenu.svg?style=flat)](https://cocoapods.org/pods/KRBubbleMenu)
 [![Platform](https://img.shields.io/cocoapods/p/KRBubbleMenu.svg?style=flat)](https://cocoapods.org/pods/KRBubbleMenu)
 
-## Example
+<!--## Example-->
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+<!--To run the example project, clone the repo, and run `pod install` from the Example directory first.-->
 
-## Requirements
+<!--## Requirements-->
 
-## Installation
-
-KRBubbleMenu is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'KRBubbleMenu'
+<!--## Installation-->
+<!---->
+<!--KRBubbleMenu is available through [CocoaPods](https://cocoapods.org). To install-->
+<!--it, simply add the following line to your Podfile:-->
+<!---->
+<!--```ruby-->
+<!--pod 'KRBubbleMenu'-->
 ```
 
 ## Author
