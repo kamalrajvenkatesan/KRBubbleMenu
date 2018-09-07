@@ -1,0 +1,6 @@
+framework module KRBubbleMenu {
+  umbrella header "KRBubbleMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

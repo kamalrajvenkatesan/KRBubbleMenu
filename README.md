@@ -22,7 +22,7 @@ pod 'KRBubbleMenu'
 
 ## Author
 
-kamalraj.venkatesan, kamalraj.venkatesan@gyanmatrix.com
+Kamalraj Venkatesan, reach.kamalraj@outlook.com
 
 ## License
 

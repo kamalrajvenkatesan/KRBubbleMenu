@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		3537D896685149FEA867CC5C /* Pods_KRBubbleMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRBubbleMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		442EE134B839DFF1C6D3AEAC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		442EE134B839DFF1C6D3AEAC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4537591F97277C362E8873BA /* Pods_KRBubbleMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRBubbleMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* KRBubbleMenu_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRBubbleMenu_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		67F6BD8A44C5021E30DCA0B8 /* Pods-KRBubbleMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRBubbleMenu_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KRBubbleMenu_Tests/Pods-KRBubbleMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4D96A8769DBEFA2606E6B4D /* Pods-KRBubbleMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRBubbleMenu_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KRBubbleMenu_Example/Pods-KRBubbleMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A73BAC9BC316BFF2A2DA6750 /* Pods-KRBubbleMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRBubbleMenu_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KRBubbleMenu_Example/Pods-KRBubbleMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C69EA7231BCACD4063F324BB /* KRBubbleMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KRBubbleMenu.podspec; path = ../KRBubbleMenu.podspec; sourceTree = "<group>"; };
+		C69EA7231BCACD4063F324BB /* KRBubbleMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KRBubbleMenu.podspec; path = ../KRBubbleMenu.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C7C4EC3CAD3CED94AF7DA2F0 /* Pods-KRBubbleMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRBubbleMenu_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KRBubbleMenu_Tests/Pods-KRBubbleMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CD69DB3B5D887006C5F1A7F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CD69DB3B5D887006C5F1A7F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

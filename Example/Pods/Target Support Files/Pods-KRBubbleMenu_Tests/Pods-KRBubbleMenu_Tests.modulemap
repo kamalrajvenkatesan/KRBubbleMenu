@@ -1,0 +1,6 @@
+framework module Pods_KRBubbleMenu_Tests {
+  umbrella header "Pods-KRBubbleMenu_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

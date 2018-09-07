@@ -1,0 +1,16 @@
+PODS:
+  - KRBubbleMenu (0.1.0)
+
+DEPENDENCIES:
+  - KRBubbleMenu (from `../`)
+
+EXTERNAL SOURCES:
+  KRBubbleMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KRBubbleMenu: f89a0e969d2350c1758b2824697bd1952fd1f395
+
+PODFILE CHECKSUM: 4232c52d2064095d333f307daefcea4dca704ad3
+
+COCOAPODS: 1.5.3

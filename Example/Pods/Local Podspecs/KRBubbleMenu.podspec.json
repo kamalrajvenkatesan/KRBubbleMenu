@@ -1,0 +1,22 @@
+{
+  "name": "KRBubbleMenu",
+  "version": "0.1.0",
+  "summary": "A short description of KRBubbleMenu.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kamalraj.venkatesan/KRBubbleMenu",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kamalraj.venkatesan": "kamalraj.venkatesan@gyanmatrix.com"
+  },
+  "source": {
+    "git": "https://github.com/kamalraj.venkatesan/KRBubbleMenu.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KRBubbleMenu/Classes/**/*"
+}
