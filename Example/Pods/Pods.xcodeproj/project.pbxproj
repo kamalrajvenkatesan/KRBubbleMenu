@@ -11,11 +11,12 @@
 		17EFE40618D91821C16A8F4F465F8473 /* Pods-KRBubbleMenu_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4348EF6EF4ED28310DC4DDC219289B52 /* Pods-KRBubbleMenu_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E7D4826AE0C19ED46F5A17090CEA407 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		42938B78BCF8339956BE0A5384224163 /* KRBubbleMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8A9B08D1E77F6E359FD78C6C2587222 /* KRBubbleMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5251698021425D7900A15933 /* KRBubbleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251697E21425D7800A15933 /* KRBubbleMenu.swift */; };
+		5251698121425D7900A15933 /* KRBubbleMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251697F21425D7800A15933 /* KRBubbleMenuItem.swift */; };
 		5DC7ACBE05C285550A48218409E56994 /* Pods-KRBubbleMenu_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4347B2CD986E38E73A51429A8A22FC14 /* Pods-KRBubbleMenu_Example-dummy.m */; };
 		6237EA8A84B8F981AC4A82B0D128224F /* Pods-KRBubbleMenu_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8727B0FD443F29B6054CF372E2ED8F0 /* Pods-KRBubbleMenu_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63A90991A519DD4687245A5D71DD9152 /* KRBubbleMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E07032153EE74849D243BAC013BC2BD /* KRBubbleMenu-dummy.m */; };
 		99632B5745E12B86FCB95C1499207C49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		C2A2068007B43351B5D580F0A7F1A2E9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25860A6F049D2BBC2A9DD65778CCF6AC /* ReplaceMe.swift */; };
 		FFC22739F6D9FD3D6C5FA44C2FA42973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,10 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F912B5806F56E0C50EE039C7C1FC838 /* Pods_KRBubbleMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KRBubbleMenu_Example.framework; path = "Pods-KRBubbleMenu_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		11F0F5E09366226F8B2527F997CABA2C /* Pods_KRBubbleMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KRBubbleMenu_Tests.framework; path = "Pods-KRBubbleMenu_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		25860A6F049D2BBC2A9DD65778CCF6AC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KRBubbleMenu/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		2CCFE34792358AE4A0C728DA2FF5BC1C /* KRBubbleMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KRBubbleMenu.framework; path = KRBubbleMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F912B5806F56E0C50EE039C7C1FC838 /* Pods_KRBubbleMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRBubbleMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F0F5E09366226F8B2527F997CABA2C /* Pods_KRBubbleMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRBubbleMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCFE34792358AE4A0C728DA2FF5BC1C /* KRBubbleMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KRBubbleMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC3F842F1DA5CAB1FC7ACEB7934EAE2 /* Pods-KRBubbleMenu_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KRBubbleMenu_Example.modulemap"; sourceTree = "<group>"; };
 		356121E22C36E05F4180838F8E3CAC18 /* Pods-KRBubbleMenu_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRBubbleMenu_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		37C6B111368EE540E9FB38505F791038 /* Pods-KRBubbleMenu_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KRBubbleMenu_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -50,17 +50,19 @@
 		464B161DCE756A0830FFBABC5293CEEE /* Pods-KRBubbleMenu_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRBubbleMenu_Example-resources.sh"; sourceTree = "<group>"; };
 		4C14D18E567DBEC84ED3B296CFB76420 /* Pods-KRBubbleMenu_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KRBubbleMenu_Tests.modulemap"; sourceTree = "<group>"; };
 		4E07032153EE74849D243BAC013BC2BD /* KRBubbleMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRBubbleMenu-dummy.m"; sourceTree = "<group>"; };
+		5251697E21425D7800A15933 /* KRBubbleMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KRBubbleMenu.swift; path = KRBubbleMenu/Classes/KRBubbleMenu.swift; sourceTree = "<group>"; };
+		5251697F21425D7800A15933 /* KRBubbleMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KRBubbleMenuItem.swift; path = KRBubbleMenu/Classes/KRBubbleMenuItem.swift; sourceTree = "<group>"; };
 		5517AA6B2DB577C451C2D5B34AD72C61 /* Pods-KRBubbleMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRBubbleMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6C801BBACA744A2FAD37DF9DA5129BC7 /* Pods-KRBubbleMenu_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KRBubbleMenu_Tests-dummy.m"; sourceTree = "<group>"; };
 		6D9AFCB15877E54824992392A2376D85 /* Pods-KRBubbleMenu_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRBubbleMenu_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7E8672E3DE55942A43E1BAE6CB18A632 /* Pods-KRBubbleMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRBubbleMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7F885321EA20BE12AF0C3DD52BE93484 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		895E7086F0876B886EE97CFCF6BB57FB /* KRBubbleMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KRBubbleMenu.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7F885321EA20BE12AF0C3DD52BE93484 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		895E7086F0876B886EE97CFCF6BB57FB /* KRBubbleMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = KRBubbleMenu.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		930780F36726DCC3E4D120D374559E53 /* Pods-KRBubbleMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRBubbleMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95076D2C8FB8F62A492101DA42C02A26 /* Pods-KRBubbleMenu_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRBubbleMenu_Tests-resources.sh"; sourceTree = "<group>"; };
-		97B553BF05007D9CE4587D9C1DE22C8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		97B553BF05007D9CE4587D9C1DE22C8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A8727B0FD443F29B6054CF372E2ED8F0 /* Pods-KRBubbleMenu_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KRBubbleMenu_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B67BE6388E2F7D281A1F596A5E521603 /* KRBubbleMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRBubbleMenu.xcconfig; sourceTree = "<group>"; };
 		C9793E9CCAA931AAEBE8B606FE497498 /* KRBubbleMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRBubbleMenu-prefix.pch"; sourceTree = "<group>"; };
@@ -186,7 +188,8 @@
 		E9F06668688F873075574D7133D50EBA /* KRBubbleMenu */ = {
 			isa = PBXGroup;
 			children = (
-				25860A6F049D2BBC2A9DD65778CCF6AC /* ReplaceMe.swift */,
+				5251697E21425D7800A15933 /* KRBubbleMenu.swift */,
+				5251697F21425D7800A15933 /* KRBubbleMenuItem.swift */,
 				BBBC5BFC62430952415E3DAB242A56CB /* Pod */,
 				EBEB1A0CF7DC436EE1EF98D2BC24FE06 /* Support Files */,
 			);
@@ -318,6 +321,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					455AAC456E4196C70C002B7264204C0A = {
+						LastSwiftMigration = 0940;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -343,8 +351,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5251698121425D7900A15933 /* KRBubbleMenuItem.swift in Sources */,
 				63A90991A519DD4687245A5D71DD9152 /* KRBubbleMenu-dummy.m in Sources */,
-				C2A2068007B43351B5D580F0A7F1A2E9 /* ReplaceMe.swift in Sources */,
+				5251698021425D7900A15933 /* KRBubbleMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +395,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B67BE6388E2F7D281A1F596A5E521603 /* KRBubbleMenu.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -574,6 +584,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B67BE6388E2F7D281A1F596A5E521603 /* KRBubbleMenu.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
