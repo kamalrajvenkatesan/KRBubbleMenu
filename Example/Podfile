@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KRBubbleMenu_Example' do
+  pod 'KRBubbleMenu', :path => '../'
+
+  target 'KRBubbleMenu_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
